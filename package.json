@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode production",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "show": "live-server dist"
   },
   "repository": {
     "type": "git",
@@ -35,7 +37,8 @@
     "live-server": "^1.1.0",
     "mini-css-extract-plugin": "^2.6.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "core-js": "^3.25.5"
