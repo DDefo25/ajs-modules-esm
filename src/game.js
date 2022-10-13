@@ -1,4 +1,4 @@
-import './domain';
+import './domain.js';
 
 export default class Game {
   start() {
